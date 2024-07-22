@@ -5,6 +5,14 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    animation: linear;
+    animation-timeline: scroll();
+}
+
+@keyframes meluncur {
+    to {
+        transform: translatex(2rem);
+    }
 }
 
 .navbar-fixed {
